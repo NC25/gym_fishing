@@ -32,3 +32,7 @@ The library I used is Stable Baselines, a set of Reinforcement Learning algorith
 # Resources
 
 To learn more the theory used and its application to Machine Learning, please read about Carl Boetigger's fishing baselines and [Reed's 1979](https://www.sciencedirect.com/science/article/abs/pii/0095069679900147?via%3Dihub) 'constant escapement' policy
+
+ [WWF](www.worldwildlife.org/threats/overfishing)
+
+[Food and Agricultural Organization](sustainablefisheries-uw.org/fact-check/how-many-fisheries-are-overfished/#:~:text=Currently%2C%20the%20Food%20and%20Agriculture,exploited%20(%E2%80%9Coverfished%E2%80%9D).&text=A%20recent%20estimate%20showed%20that,18%25%20come%20from%20unsustainable%20fisheries.)
