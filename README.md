@@ -1,6 +1,8 @@
 # Background
 
-The purpose of gym_fishing is to develop RL agents that can simulate fisheries. Fisheries are areas where fishes are harvested for commercial years. However, there is an imminent problem with how these fisheries are carried out. According to the Food and Agriculture Organization, over 33% of the world's fisheries are overfished, meaning that fish are caught and harvested more than they can reproduce. Overfishing is also related to bycatch, which is the capture of unwanted sea life (WWF). Overall, this negatively affects billions of sea animals and the ecosystems they live in. It is also important to note that fisheries are a principal component for the world's food industry and economy, and overfishing is a large cause in worldwide malnourishment.
+The purpose of gym_fishing is to develop RL agents that can simulate fisheries. Fisheries are areas where fishes are harvested for commercial years. However, there is an imminent problem with how these fisheries are carried out. According to the Food and Agriculture Organization, over 33% of the world's fisheries are overfished, meaning that fish are caught and harvested more than they can reproduce (Sustainable Fisheries). Overfishing is also related to bycatch, which is the capture of unwanted sea life (WWF). Overall, this negatively affects billions of sea animals and the ecosystems they live in. It is also important to note that fisheries are a principal component for the world's food industry and economy, and overfishing is a large cause in worldwide malnourishment.
+
+With this repository, agents will be able to simulate fisheries and determine the reproductive rates of a fishing population. It will see the necessary steps, whether to maintain the population or harvest a select percentage. This will lead to full exploitation, which yields optimum food security and an environment that is sustainable and has reached maximum potential. By comparison, over-exploitation will result in unsustainable fisheries, and under-exploitation will result in a lack of food security. 
 
 # Setup
 
@@ -33,6 +35,6 @@ The library I used is Stable Baselines, a set of Reinforcement Learning algorith
 
 To learn more the theory used and its application to Machine Learning, please read about Carl Boetigger's fishing baselines and [Reed's 1979](https://www.sciencedirect.com/science/article/abs/pii/0095069679900147?via%3Dihub) 'constant escapement' policy
 
- [WWF](https://www.worldwildlife.org/threats/overfishing)
+ [WWF on Overfishing](https://www.worldwildlife.org/threats/overfishing)
 
-[Food and Agricultural Organization](https://sustainablefisheries-uw.org/fact-check/how-many-fisheries-are-overfished/#:~:text=Currently%2C%20the%20Food%20and%20Agriculture,exploited%20(%E2%80%9Coverfished%E2%80%9D).&text=A%20recent%20estimate%20showed%20that,18%25%20come%20from%20unsustainable%20fisheries.)
+[Sustainable Fisheries on Overfishing](https://sustainablefisheries-uw.org/fact-check/how-many-fisheries-are-overfished/#:~:text=Currently%2C%20the%20Food%20and%20Agriculture,exploited%20(%E2%80%9Coverfished%E2%80%9D).&text=A%20recent%20estimate%20showed%20that,18%25%20come%20from%20unsustainable%20fisheries.)
