@@ -13,5 +13,19 @@ ls
 cd gym_fishing
 ```
 
+# Environments 
+ 
+A continuous state space of fish biomass, with:
+* Discrete action space with three actions: maintain harvest level, increase harvest by 20%, decrease harvest by 20%
+* Discrete action space with n > 3 actions: action is taken as quota, quota = action / n_actions * K
+* Continuous action space, action = quota. 
+(Boettiger)
+
+# Interface
+So far, I have used a Soft Actor Critic agent. With this algortihim, the model is able to optimize a policy while using a Q function to make training effecient but also encourages entropy (random sampling to make the model explore more). As a result, the agent will have more effecient training while having a better policy of obtaining the best reward
+
+The library I used is Stable Baselines, a set of Reinforcement Learning algorithims for Open AI Gym.
+
+# Resources
 
 To learn more the theory used and its application to Machine Learning, please read about Carl Boetigger's fishing baselines and * [Reed's 1979](https://www.sciencedirect.com/science/article/abs/pii/0095069679900147?via%3Dihub) 'constant escapement' policy
